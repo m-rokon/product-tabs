@@ -26,7 +26,8 @@ a {
     gap: 4rem;
     align-items: center;
 }
-#product-tab, #product-details-col {
+#product-tab,
+#product-details-col {
     width: 50%;
 }
 #product-tab button {
@@ -77,4 +78,13 @@ a {
 }
 .product-details.active {
     display: block;
+}
+
+.right-icon {
+    transform: rotate(-90deg) scale(1.4);
+    color: #ff9e9e;
+    transition: all 0.3s ease-in-out;
+    background: #fef4f4;
+    padding: 4px;
+    border-radius: 100%;
 }
